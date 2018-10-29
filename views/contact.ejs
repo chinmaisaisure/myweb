@@ -1,0 +1,27 @@
+
+<% include header.ejs %>
+
+<h2>Contact information</h2>
+
+<form action="/action_page.php">
+	
+ <p class = "details"> First name:<sub></sub>*</p>
+  <input type="text" name="firstname" required class="Contact information"/><br>
+  <br>
+	<p class = "details">Last name:<sub></sub>*</p>
+  <input type="text" name="lastname" required class="Contact information"/><br>
+  <p class = "details"> Gender:<sub></sub>*</p>
+  <input type="radio" name="gender" value="male" > Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other 
+  <br>
+  <p class = "details"> Feedback:<sub></sub>*</p>
+  <textarea name="feedback" rows="10" cols="30"></textarea>
+  <br>
+  <input type="submit" value="Submit"><br>
+  
+</form> 
+
+<p>Please give any Suggestions </p>
+
+<% include footer %>

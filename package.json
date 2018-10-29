@@ -1,0 +1,27 @@
+{
+    "name": "Game-app",
+    "version": "0.0.1",
+    "description": "Game website",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "body-parser": "latest",
+        "cool-ascii-faces": "^1.3.4",
+        "ejs": "latest",
+        "express": "latest",
+        "morgan": "latest",
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "mailgun-js": "latest",
+        "nodemailer-mailgun-transport": "latest"
+    },
+    "author": "Chinmai sai Sure",
+    "homepage": "https://bitbucket.org/chinmaisaisure/a03sure/src",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/chinmaisaisure/a03sure/src"
+    },
+    "license": "Apache-2.0"
+}
